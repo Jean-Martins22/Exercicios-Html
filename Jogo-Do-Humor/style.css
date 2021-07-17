@@ -1,0 +1,28 @@
+body{
+    background-image: url(Wallpaper.jpg);
+    background-size: auto;
+}
+
+#titulo {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    justify-content: center
+}
+
+.borda{
+    border-style: solid;
+}
+
+.bloquear{
+    display: block;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
